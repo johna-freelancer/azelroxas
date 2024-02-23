@@ -1,0 +1,32 @@
+#video-list {
+    .video-section .item{
+        transition:.4s ease all;
+      }
+    
+      @media(max-width: 1000px) {
+        .video-section .item {
+            margin: 0;
+            width: 100% !important; /* Change width to 100% on mobile view */
+        }
+    }
+      .owl-wrapper-outer {
+        max-height: 600px;
+      }
+      .video-section .item.active{
+        opacity:1;
+        transform:scale(1);
+      } 
+      
+      
+      .video-section .owl-item {
+          -webkit-backface-visibility: hidden;
+          -webkit-transform: translateZ(0) scale(1.0, 1.0);
+            text-align: -webkit-center;
+    
+      }
+      
+      .video-section video{
+        max-width:100%;
+        height:auto;
+      }
+}
