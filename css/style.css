@@ -167,7 +167,9 @@ a:hover, a:active, a:focus {
 
 #gallery,
 #skills,
-#brandcollab
+#brandcollab,
+#gallery,
+#video-list,
 #contact {
   padding-top: 80px;
   padding-bottom: 80px;
@@ -551,9 +553,6 @@ a:hover, a:active, a:focus {
     Galllery section              
 -----------------------------------------*/
 
-#gallery {
-  background: #ffffff;
-}
 
 #gallery .gallery-thumb {
   background-color: #ffffff;
