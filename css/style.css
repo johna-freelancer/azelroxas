@@ -67,7 +67,6 @@ p {
 #contact p, footer p {
   color: #f9f9f9;
 }
-#home h1,
 #home-title {
   font-size: 4em;
   letter-spacing: 10px;
@@ -382,9 +381,7 @@ a:hover, a:active, a:focus {
   text-align: left;
 }
 
-#home h1 {
-  color: #ffffff;
-}
+
 
 #home .col-md-8 {
   padding-left: 62px;
@@ -824,28 +821,32 @@ footer {
       margin: 0;
       height: 100% !important; /* Change width to 100% on mobile view */
   }
+  .typewriter {
+    white-space: pre-wrap !important;
+    font-size: 3.5rem !important; 
+
+  }
+  .typewritertitle {
+    line-height:65px !important;
+  }
+
 }
 
+  .typewritertitle {
+    font-weight: lighter;
+    font-size: 40px; 
+    color:#000000;
+    letter-spacing:2px; 
+    line-height:100px;
+  }
 
   .typewriter {
-    overflow: hidden; /* Ensures the content is not revealed until the animation */
-    border-right: .15em solid rgb(0, 0, 0); /* The typwriter cursor */
-    white-space: nowrap; /* Keeps the content on a single line */
-    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
-    letter-spacing: .15em; /* Adjust as needed */
-    animation: 
-      typing 3.5s steps(30, end),
-      blink-caret .75s step-end infinite;
+    font-family:wf_f6086231d01640cb8d1a53eea; 
+    color:#090f29; 
+    font-weight: bold; 
+    font-size: 80px; 
+    letter-spacing:1px;
+    white-space: nowrap;
+
   }
   
-  /* The typing effect */
-  @keyframes typing {
-    from { width: 0 }
-    to { width: 100% }
-  }
-  
-  /* The typewriter cursor effect */
-  @keyframes blink-caret {
-    from, to { border-color: transparent }
-    50% { border-color: rgb(0, 0, 0); }
-  }
