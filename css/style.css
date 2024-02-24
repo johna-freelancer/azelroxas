@@ -841,6 +841,7 @@ footer {
   }
 
   .typewriter {
+    font-family: 'FontAwesome', serif;
     color:#090f29; 
     font-weight: bold; 
     font-size: 80px; 
