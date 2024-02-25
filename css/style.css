@@ -541,7 +541,7 @@ a:hover, a:active, a:focus {
     Brand Collab section
 -----------------------------------------*/
 
-#video-list {
+#video-list, #gallery {
   background: #ffffff;
 }
 
