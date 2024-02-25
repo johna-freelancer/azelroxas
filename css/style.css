@@ -43,7 +43,7 @@ h1 {
 }
 
 h2 {
-  color: #e44c65;
+  color: #96a9c2;
   font-size: 1.2rem;
   font-weight: bold;
   letter-spacing: 4px;
@@ -86,12 +86,12 @@ p {
 }
 
 .btn:focus {
-  background: #e44c65;
+  background: #96a9c2;
   border-color: transparent;
 }
 
 .btn-success {
-  background: #e44c65;
+  background: #96a9c2;
   font-weight: 300;
   letter-spacing: 2px;
   padding: 14px 32px;
@@ -103,21 +103,21 @@ p {
 }
 
 a {
-  color: #e44c65;
+  color: #96a9c2;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
   text-decoration: none !important;
 }
 a:hover, a:active, a:focus {
-  color: #e44c65;
+  color: #96a9c2;
   outline: none;
 }
 
 #home a {
   color: #000000;
   background-color: transparent;
-  border: #000000a5 1px solid;
+  border: #aa9785 1px solid;
   border-radius: 25px;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
@@ -128,7 +128,8 @@ a:hover, a:active, a:focus {
 #home
 a:hover, a:active, a:focus {
   color: #f9f9f9;
-  background-color: #000000;
+  background-color: #96a9c2;
+  border: #96a9c2 1px solid;
   outline: none;
 }
 
@@ -214,7 +215,7 @@ a:hover, a:active, a:focus {
 .sk-spinner-pulse {
   width: 60px;
   height: 60px;
-  background-color: #e44c65;
+  background-color: #96a9c2;
   border-radius: 100%;
   margin: 40px auto;
   -webkit-animation: sk-pulseScaleOut 1s infinite ease-in-out;
@@ -394,7 +395,7 @@ a:hover, a:active, a:focus {
 -----------------------------------------*/
 
 #about {
-  background: #f0f0f0;
+  background: #ffe5b4;
 }
 
 #about div .row {
@@ -427,10 +428,11 @@ a:hover, a:active, a:focus {
 }
 
 #about .about-thumb {
-  background: #ffffff;
+  background: #f3f2dc;
   border-radius: 4px;
   padding: 100px;
   position: relative;
+  color: #AA9785;
 }
 
 #about .about-img img {
@@ -587,7 +589,7 @@ a:hover, a:active, a:focus {
 #contact .form-control {
   background: transparent;
   box-shadow: none;
-  border: 1px solid rgb(255 190 168);
+  border: 1px solid #aa9785;
   color: rgb(68, 68, 68);
   font-size: 20px;
   margin-top: 10px;
@@ -596,7 +598,7 @@ a:hover, a:active, a:focus {
 }
 
 #contact .form-control:focus {
-  border-color: #e44c65;
+  border-color: #96a9c2;
   color: #575757;
 }
 
@@ -605,7 +607,7 @@ a:hover, a:active, a:focus {
 }
 
 #contact input[type="submit"] {
-  background: #e44c65;
+  background: #96a9c2;
   border:none;
   color: #ffffff;
   font-weight: 400;
@@ -625,7 +627,7 @@ a:hover, a:active, a:focus {
 
 footer {
   padding-bottom: 80px;
-  background: #ef9c83;
+  background: #ffe5b4;
 }
 
 
@@ -659,7 +661,7 @@ footer {
 
 .social-icon li a:hover {
   background: #ffffff;
-  color: #e44c65;
+  color: #96a9c2;
 }
 
 
@@ -687,7 +689,7 @@ footer {
 }
 
 .go-top:hover {
-  background: #e44c65;
+  background: #96a9c2;
   color: #ffffff;
 }
 
@@ -835,7 +837,7 @@ footer {
   .typewritertitle {
     font-weight: lighter;
     font-size: 40px; 
-    color:#000000;
+    color: #AA9785;
     letter-spacing:2px; 
     line-height:100px;
   }
